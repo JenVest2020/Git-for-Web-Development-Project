@@ -15,38 +15,69 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
     5. Name two tags that have required attributes
         the anchor tag and the img tag
     6. What do we put in the head of our HTML document?
-         
+        the head tag and metadata 
     7. What is an id? 
-    8. What elements can I add an id to? 
-    9. How many times can I use the same id on a page? 
-    10. What is a class? 
+        an id is an attribute that targets one specific element
+    8. What elements can I add an id to?
+        id can be added to any html element
+    9. How many times can I use the same id on a page?
+        only once 
+    10. What is a class?
+        a class is an attribute used to target one or more elements 
     11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
+        class can be added to any html element
+    12. How many times can I use the same class on a page?
+        technically there is no limit to how many uses on a page 
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute used for? 
+        by adding a target=" blank" attribute to your link
+    14. What is the alt attribute used for?
+        it provides an alternate text for an image 
     15. How do I reference an id?
+        with the #
     16. What is the difference between a section and a div
+        div is only generic and will not hurt the semantic structure, but section has a semantic purpose
     17. What is CSS used for? 
+        it is used to give specific style to a web page
     18. How to we select an element? Example - every h2 on the page
+        use the tag name and {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        a class can target multiple elements on a page but an id is used for only one specific element. EX: if I want all of my header text to be a uniform font, size, and/or color, I can give every header a class named"style1". But if I just want one header to differ from all the others, I would apply an id attribute named "specialHead" or something like it.
     20. How do we select classes in CSS?
+        with the .
     21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
+        .human{}
+    22. What is a parent child selector? When would this be useful?
+        it selects elements that are a direct child of the specific element. it is useful when there is data that changes frequently on a web page.
     23. How do you select all links within a div with the class of sidebar?
+        .sidebar
     24. What is a pseudo selector?
+        it is a class selector that are used to target an element that can't be targeted by a simple class, id selector.
     25. What do we use the change the spacing between lines?
+
     26. What do we use to change the spacing between letters?
+        letter-spacing and either px values or em values
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        uppercase, lowercase, and capitalize
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
+        border: 1px dotted black
+    29. How do I select everything on the page?
+        with the *{} 
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+        use the // before the text
+    31. How do I find out what file I am in, when I am using the command line?
+        pwd 
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+        git rm -r but once a file is removed, you cannot recover it.
+    34. Why should I use version control?
+        so that several members of a team can modify a repo at the same time without creating confusion or a mess 
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+        commit approx every 20 minutes or so
+    36. What is the command we would use to push our repo up to github?
+        git push -u origin branch-name 
+    37. Walk me through Lambda's git flow.
+        1. fork the repo 2. invite a collaborator 3. clone the repo into your files 4. create your branch to work in 5. add, commit, and push changes to the hub 6. open a pull request 7. submit the pull request to your TL 
 
 Stretch Questions
 
